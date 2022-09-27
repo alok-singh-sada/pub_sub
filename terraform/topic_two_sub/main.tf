@@ -20,7 +20,7 @@
 # }
 
 module "create_subscription" {
-  source                = "../../../modules/pubsub_subscription"
+  source                = "../../modules/pubsub_subscription"
   subscription_name     = var.subscription_name
   project               = var.project
   topic                 = var.topic_name_predefined
