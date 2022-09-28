@@ -31,4 +31,6 @@ variable "dead_letter_topic" {
   }
 }
 
-variable "TF_VAR_SA" {}
+variable "TF_VAR_SA" {
+  default = ""
+}

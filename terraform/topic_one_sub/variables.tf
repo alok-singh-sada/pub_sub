@@ -26,3 +26,7 @@ variable "topic_name_predefined" {
   type = string
   default = "projects/sada-alok-singh-sandbox/topics/topic_one"
 }
+
+variable "TF_VAR_SA" {
+  default = ""
+}
