@@ -20,7 +20,6 @@ variable "topic_name" {
   default = {
     "t_one" = "topic_one"
     "t_two" = "topic_two"
-    "t_three" = "topic_three"
   }
 }
 
@@ -29,6 +28,5 @@ variable "dead_letter_topic" {
   default = {
     "dl_one" = "dl_topic_one"
     "dl_two" = "dl_topic_two"
-    "dl_three" = "dl_topic_three"
   }
 }
