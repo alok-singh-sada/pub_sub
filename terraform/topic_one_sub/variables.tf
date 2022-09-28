@@ -1,6 +1,6 @@
 variable "project" {
   type    = string
-  default = "sada-alok-singh-sandbox"
+  default = "dpskanpur-backup"
 }
 
 variable "subscription_name" {
