@@ -30,3 +30,5 @@ variable "dead_letter_topic" {
     "dl_two" = "dl_topic_two"
   }
 }
+
+variable "TF_VAR_SA" {}
